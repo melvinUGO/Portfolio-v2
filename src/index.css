@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body:hover > #trailer {
+  opacity: 1;
+}
+
+.matrix {
+  background-image: url("/public/images/matrix.webp");
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
